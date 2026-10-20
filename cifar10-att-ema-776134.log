@@ -1,0 +1,78 @@
+========================================
+DDPM CIFAR-10 + Self-Attention + EMA
+Job ID: 776134
+Nodo: nodei-gpu-1
+Inicio: Fri Oct 16 22:58:56 -05 2026
+========================================
+Python:
+/hpcfs/home/fisica/v.rincono/venvs/thesis/bin/python
+
+GPU:
+name, memory.total [MiB]
+Quadro RTX 6000, 23040 MiB
+
+Usando GPU: Quadro RTX 6000
+Dataset: 50000 imágenes
+Número de parámetros: 3,773,123
+Época  1/50 | Loss: 0.094030 | Época: 0.7 min | Job: 0.7 min
+Época  2/50 | Loss: 0.045982 | Época: 0.4 min | Job: 1.1 min
+Época  3/50 | Loss: 0.042399 | Época: 0.4 min | Job: 1.5 min
+Época  4/50 | Loss: 0.039742 | Época: 0.4 min | Job: 1.9 min
+Época  5/50 | Loss: 0.038151 | Época: 0.4 min | Job: 2.3 min
+Época  6/50 | Loss: 0.037283 | Época: 0.4 min | Job: 2.7 min
+Época  7/50 | Loss: 0.036589 | Época: 0.4 min | Job: 3.1 min
+Época  8/50 | Loss: 0.035446 | Época: 0.4 min | Job: 3.5 min
+Época  9/50 | Loss: 0.035071 | Época: 0.4 min | Job: 3.9 min
+Época 10/50 | Loss: 0.034648 | Época: 0.4 min | Job: 4.3 min
+Época 11/50 | Loss: 0.034518 | Época: 0.4 min | Job: 4.7 min
+Época 12/50 | Loss: 0.034115 | Época: 0.4 min | Job: 5.1 min
+Época 13/50 | Loss: 0.034522 | Época: 0.4 min | Job: 5.5 min
+Época 14/50 | Loss: 0.033889 | Época: 0.4 min | Job: 5.8 min
+Época 15/50 | Loss: 0.034008 | Época: 0.4 min | Job: 6.2 min
+Época 16/50 | Loss: 0.033654 | Época: 0.4 min | Job: 6.7 min
+Época 17/50 | Loss: 0.033345 | Época: 0.4 min | Job: 7.1 min
+Época 18/50 | Loss: 0.033256 | Época: 0.4 min | Job: 7.4 min
+Época 19/50 | Loss: 0.032840 | Época: 0.4 min | Job: 7.8 min
+Época 20/50 | Loss: 0.032953 | Época: 0.4 min | Job: 8.2 min
+Época 21/50 | Loss: 0.032615 | Época: 0.4 min | Job: 8.6 min
+Época 22/50 | Loss: 0.032689 | Época: 0.4 min | Job: 9.0 min
+Época 23/50 | Loss: 0.032860 | Época: 0.4 min | Job: 9.4 min
+Época 24/50 | Loss: 0.033390 | Época: 0.4 min | Job: 9.8 min
+Época 25/50 | Loss: 0.032967 | Época: 0.4 min | Job: 10.2 min
+Época 26/50 | Loss: 0.032469 | Época: 0.4 min | Job: 10.6 min
+Época 27/50 | Loss: 0.031822 | Época: 0.4 min | Job: 11.0 min
+Época 28/50 | Loss: 0.032537 | Época: 0.4 min | Job: 11.4 min
+Época 29/50 | Loss: 0.032060 | Época: 0.4 min | Job: 11.8 min
+Época 30/50 | Loss: 0.032507 | Época: 0.4 min | Job: 12.1 min
+Época 31/50 | Loss: 0.032359 | Época: 0.4 min | Job: 12.6 min
+Época 32/50 | Loss: 0.032227 | Época: 0.4 min | Job: 13.0 min
+Época 33/50 | Loss: 0.032050 | Época: 0.4 min | Job: 13.3 min
+Época 34/50 | Loss: 0.032255 | Época: 0.4 min | Job: 13.7 min
+Época 35/50 | Loss: 0.031656 | Época: 0.4 min | Job: 14.1 min
+Época 36/50 | Loss: 0.032870 | Época: 0.4 min | Job: 14.6 min
+Época 37/50 | Loss: 0.031917 | Época: 0.4 min | Job: 14.9 min
+Época 38/50 | Loss: 0.031788 | Época: 0.4 min | Job: 15.3 min
+Época 39/50 | Loss: 0.031789 | Época: 0.4 min | Job: 15.7 min
+Época 40/50 | Loss: 0.032176 | Época: 0.4 min | Job: 16.1 min
+Época 41/50 | Loss: 0.031960 | Época: 0.4 min | Job: 16.5 min
+Época 42/50 | Loss: 0.031797 | Época: 0.4 min | Job: 16.9 min
+Época 43/50 | Loss: 0.031827 | Época: 0.4 min | Job: 17.3 min
+Época 44/50 | Loss: 0.032357 | Época: 0.4 min | Job: 17.7 min
+Época 45/50 | Loss: 0.031557 | Época: 0.4 min | Job: 18.1 min
+Época 46/50 | Loss: 0.031608 | Época: 0.4 min | Job: 18.5 min
+Época 47/50 | Loss: 0.031461 | Época: 0.4 min | Job: 18.9 min
+Época 48/50 | Loss: 0.031683 | Época: 0.4 min | Job: 19.3 min
+Época 49/50 | Loss: 0.031826 | Época: 0.4 min | Job: 19.7 min
+Época 50/50 | Loss: 0.031985 | Época: 0.4 min | Job: 20.0 min
+Entrenamiento COMPLETO.
+Modelo EMA: /hpcfs/home/fisica/v.rincono/tesis/modelos/cifar10_attention_ema_model.pt
+Checkpoint: /hpcfs/home/fisica/v.rincono/tesis/modelos/checkpoint_cifar10_attention_ema_latest.pt
+Resultados: /hpcfs/home/fisica/v.rincono/tesis/Img CIFAR10 Attention EMA
+
+Python terminó con código: 0
+Hora: Fri Oct 16 23:20:40 -05 2026
+========================================
+Entrenamiento completo.
+No se requiere otro job.
+Fin: Fri Oct 16 23:20:40 -05 2026
+========================================

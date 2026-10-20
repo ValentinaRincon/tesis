@@ -1,0 +1,41 @@
+========================================
+Evaluación común DDPM CIFAR-10
+Job ID: 779073
+Nodo: nodei-gpu-2
+Inicio: Mon Oct 19 19:30:57 -05 2026
+========================================
+
+Python:
+/hpcfs/home/fisica/v.rincono/venvs/thesis/bin/python
+
+GPU:
+name, memory.total [MiB]
+Quadro RTX 6000, 23040 MiB
+
+Usando GPU: Quadro RTX 6000
+CIFAR-10 test: 10000 imágenes
+Modelos candidatos: Baseline, Attention (raw), Attention + EMA, ResUNet + Attention (raw), ResUNet + Attention + EMA
+
+Evaluando: Baseline
+  OMITIDO: Pesos incompatibles con SimpleUNet: Error(s) in loading state_dict for SimpleUNet:
+	Unexpected key(s) in state_dict: "attention.norm.weight", "attention.norm.bias", "attention.attention.in_proj_weight", "attention.attention.in_proj_bias", "attention.attention.out_proj.weight", "attention.attention.out_proj.bias". 
+
+Evaluando: Attention (raw)
+  Generando 16 muestras...
+
+Evaluando: Attention + EMA
+  Generando 16 muestras...
+
+Evaluando: ResUNet + Attention (raw)
+  Generando 16 muestras...
+
+Evaluando: ResUNet + Attention + EMA
+  Generando 16 muestras...
+
+Evaluación terminada.
+Resultados: /hpcfs/home/fisica/v.rincono/tesis/Evaluacion CIFAR10
+
+========================================
+Fin: Mon Oct 19 19:33:27 -05 2026
+Código de salida: 0
+========================================

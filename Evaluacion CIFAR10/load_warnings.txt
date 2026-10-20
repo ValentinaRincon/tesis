@@ -1,0 +1,2 @@
+Baseline: Pesos incompatibles con SimpleUNet: Error(s) in loading state_dict for SimpleUNet:
+	Unexpected key(s) in state_dict: "attention.norm.weight", "attention.norm.bias", "attention.attention.in_proj_weight", "attention.attention.in_proj_bias", "attention.attention.out_proj.weight", "attention.attention.out_proj.bias". 

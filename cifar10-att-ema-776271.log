@@ -1,0 +1,22 @@
+========================================
+DDPM CIFAR-10 + Self-Attention + EMA
+Job ID: 776271
+Nodo: nodei-gpu-1
+Inicio: Sat Oct 17 12:26:38 -05 2026
+========================================
+Python:
+/hpcfs/home/fisica/v.rincono/venvs/thesis/bin/python
+
+GPU:
+name, memory.total [MiB]
+Quadro RTX 6000, 23040 MiB
+
+Usando GPU: Quadro RTX 6000
+Dataset: 50000 imágenes
+Número de parámetros: 3,773,123
+Checkpoint encontrado: /hpcfs/home/fisica/v.rincono/tesis/modelos/checkpoint_cifar10_attention_ema_latest.pt
+
+Python terminó con código: 1
+Hora: Sat Oct 17 12:26:55 -05 2026
+El programa terminó con error.
+Revisa cifar10-att-ema-776271.err

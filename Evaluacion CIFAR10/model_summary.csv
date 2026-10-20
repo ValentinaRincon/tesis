@@ -1,0 +1,5 @@
+model,architecture,variant,parameters,epochs_with_loss,final_train_loss,min_train_loss
+Attention (raw),SimpleUNetAttention,raw,3773123,200,0.03053497974558369,0.03011913518981098
+Attention + EMA,SimpleUNetAttention,ema,3773123,200,0.03053497974558369,0.03011913518981098
+ResUNet + Attention (raw),ResUNetAttention,raw,5868099,200,0.029784070591077856,0.029411095737591576
+ResUNet + Attention + EMA,ResUNetAttention,ema,5868099,200,0.029784070591077856,0.029411095737591576

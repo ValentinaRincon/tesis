@@ -1,0 +1,228 @@
+========================================
+DDPM CIFAR-10 + ResUNet + Self-Attention + EMA
+Job ID: 777368
+Nodo: nodei-gpu-1
+Inicio: Sun Oct 18 16:49:44 -05 2026
+========================================
+Python:
+/hpcfs/home/fisica/v.rincono/venvs/thesis/bin/python
+
+GPU:
+name, memory.total [MiB]
+Quadro RTX 6000, 23040 MiB
+
+Usando GPU: Quadro RTX 6000
+Dataset: 50000 imágenes
+Número de parámetros: 5,868,099
+Época  1/200 | Loss: 0.100499 | Época: 0.9 min | Job: 0.9 min
+Época  2/200 | Loss: 0.047240 | Época: 0.7 min | Job: 1.7 min
+Época  3/200 | Loss: 0.042408 | Época: 0.7 min | Job: 2.4 min
+Época  4/200 | Loss: 0.039388 | Época: 0.7 min | Job: 3.1 min
+Época  5/200 | Loss: 0.037680 | Época: 0.8 min | Job: 3.9 min
+Época  6/200 | Loss: 0.036746 | Época: 0.8 min | Job: 5.0 min
+Época  7/200 | Loss: 0.036065 | Época: 0.8 min | Job: 6.4 min
+Época  8/200 | Loss: 0.034922 | Época: 0.8 min | Job: 7.8 min
+Época  9/200 | Loss: 0.034546 | Época: 0.8 min | Job: 9.2 min
+Época 10/200 | Loss: 0.034122 | Época: 0.8 min | Job: 10.6 min
+Época 11/200 | Loss: 0.034023 | Época: 0.8 min | Job: 12.0 min
+Época 12/200 | Loss: 0.033659 | Época: 0.8 min | Job: 13.1 min
+Época 13/200 | Loss: 0.034040 | Época: 0.8 min | Job: 14.5 min
+Época 14/200 | Loss: 0.033404 | Época: 0.8 min | Job: 15.9 min
+Época 15/200 | Loss: 0.033533 | Época: 0.8 min | Job: 17.3 min
+Época 16/200 | Loss: 0.033186 | Época: 0.8 min | Job: 18.7 min
+Época 17/200 | Loss: 0.032865 | Época: 0.8 min | Job: 20.2 min
+Época 18/200 | Loss: 0.032794 | Época: 0.8 min | Job: 21.3 min
+Época 19/200 | Loss: 0.032377 | Época: 0.8 min | Job: 22.2 min
+Época 20/200 | Loss: 0.032477 | Época: 0.8 min | Job: 23.7 min
+Época 21/200 | Loss: 0.032151 | Época: 0.8 min | Job: 25.2 min
+Época 22/200 | Loss: 0.032245 | Época: 0.7 min | Job: 26.0 min
+Época 23/200 | Loss: 0.032408 | Época: 0.7 min | Job: 26.7 min
+Época 24/200 | Loss: 0.032915 | Época: 0.7 min | Job: 27.4 min
+Época 25/200 | Loss: 0.032484 | Época: 0.7 min | Job: 28.2 min
+Época 26/200 | Loss: 0.032008 | Época: 0.7 min | Job: 29.0 min
+Época 27/200 | Loss: 0.031350 | Época: 0.7 min | Job: 29.7 min
+Época 28/200 | Loss: 0.032079 | Época: 0.7 min | Job: 30.4 min
+Época 29/200 | Loss: 0.031587 | Época: 0.7 min | Job: 31.2 min
+Época 30/200 | Loss: 0.032029 | Época: 0.7 min | Job: 31.9 min
+Época 31/200 | Loss: 0.031882 | Época: 0.7 min | Job: 32.6 min
+Época 32/200 | Loss: 0.031736 | Época: 0.7 min | Job: 33.4 min
+Época 33/200 | Loss: 0.031570 | Época: 0.7 min | Job: 34.1 min
+Época 34/200 | Loss: 0.031759 | Época: 0.7 min | Job: 34.8 min
+Época 35/200 | Loss: 0.031167 | Época: 0.7 min | Job: 35.5 min
+Época 36/200 | Loss: 0.032357 | Época: 0.7 min | Job: 36.3 min
+Época 37/200 | Loss: 0.031419 | Época: 0.7 min | Job: 37.0 min
+Época 38/200 | Loss: 0.031296 | Época: 0.7 min | Job: 37.7 min
+Época 39/200 | Loss: 0.031269 | Época: 0.7 min | Job: 38.5 min
+Época 40/200 | Loss: 0.031674 | Época: 0.7 min | Job: 39.2 min
+Época 41/200 | Loss: 0.031454 | Época: 0.7 min | Job: 39.9 min
+Época 42/200 | Loss: 0.031313 | Época: 0.7 min | Job: 40.7 min
+Época 43/200 | Loss: 0.031316 | Época: 0.7 min | Job: 41.4 min
+Época 44/200 | Loss: 0.031893 | Época: 0.7 min | Job: 42.1 min
+Época 45/200 | Loss: 0.031020 | Época: 0.7 min | Job: 42.8 min
+Época 46/200 | Loss: 0.031101 | Época: 0.7 min | Job: 43.6 min
+Época 47/200 | Loss: 0.030925 | Época: 0.7 min | Job: 44.3 min
+Época 48/200 | Loss: 0.031147 | Época: 0.7 min | Job: 45.0 min
+Época 49/200 | Loss: 0.031307 | Época: 0.7 min | Job: 45.8 min
+Época 50/200 | Loss: 0.031432 | Época: 0.7 min | Job: 46.5 min
+Época 51/200 | Loss: 0.031245 | Época: 0.7 min | Job: 47.3 min
+Época 52/200 | Loss: 0.030720 | Época: 0.7 min | Job: 48.0 min
+Época 53/200 | Loss: 0.030752 | Época: 0.7 min | Job: 48.8 min
+Época 54/200 | Loss: 0.031426 | Época: 0.7 min | Job: 49.5 min
+Época 55/200 | Loss: 0.031459 | Época: 0.7 min | Job: 50.2 min
+Época 56/200 | Loss: 0.031169 | Época: 0.7 min | Job: 51.0 min
+Época 57/200 | Loss: 0.030899 | Época: 0.7 min | Job: 51.7 min
+Época 58/200 | Loss: 0.031132 | Época: 0.7 min | Job: 52.4 min
+Época 59/200 | Loss: 0.030976 | Época: 0.7 min | Job: 53.2 min
+Época 60/200 | Loss: 0.031679 | Época: 0.7 min | Job: 53.9 min
+Época 61/200 | Loss: 0.031062 | Época: 0.7 min | Job: 54.6 min
+Época 62/200 | Loss: 0.030870 | Época: 0.7 min | Job: 55.3 min
+Época 63/200 | Loss: 0.030662 | Época: 0.7 min | Job: 56.1 min
+Época 64/200 | Loss: 0.030888 | Época: 0.7 min | Job: 56.8 min
+Época 65/200 | Loss: 0.030481 | Época: 0.7 min | Job: 57.5 min
+Época 66/200 | Loss: 0.031130 | Época: 0.7 min | Job: 58.3 min
+Época 67/200 | Loss: 0.030851 | Época: 0.7 min | Job: 59.0 min
+Época 68/200 | Loss: 0.030313 | Época: 0.7 min | Job: 59.7 min
+Época 69/200 | Loss: 0.031018 | Época: 0.7 min | Job: 60.5 min
+Época 70/200 | Loss: 0.031208 | Época: 0.7 min | Job: 61.2 min
+Época 71/200 | Loss: 0.030752 | Época: 0.7 min | Job: 61.9 min
+Época 72/200 | Loss: 0.030899 | Época: 0.7 min | Job: 62.7 min
+Época 73/200 | Loss: 0.030902 | Época: 0.7 min | Job: 63.4 min
+Época 74/200 | Loss: 0.030996 | Época: 0.7 min | Job: 64.1 min
+Época 75/200 | Loss: 0.031171 | Época: 0.7 min | Job: 64.8 min
+Época 76/200 | Loss: 0.030464 | Época: 0.7 min | Job: 65.7 min
+Época 77/200 | Loss: 0.030378 | Época: 0.7 min | Job: 66.4 min
+Época 78/200 | Loss: 0.030802 | Época: 0.7 min | Job: 67.1 min
+Época 79/200 | Loss: 0.031104 | Época: 0.7 min | Job: 67.8 min
+Época 80/200 | Loss: 0.031088 | Época: 0.7 min | Job: 68.6 min
+Época 81/200 | Loss: 0.030249 | Época: 0.7 min | Job: 69.3 min
+Época 82/200 | Loss: 0.030756 | Época: 0.7 min | Job: 70.0 min
+Época 83/200 | Loss: 0.030412 | Época: 0.7 min | Job: 70.8 min
+Época 84/200 | Loss: 0.030898 | Época: 0.7 min | Job: 71.5 min
+Época 85/200 | Loss: 0.030574 | Época: 0.7 min | Job: 72.2 min
+Época 86/200 | Loss: 0.030477 | Época: 0.7 min | Job: 73.0 min
+Época 87/200 | Loss: 0.030366 | Época: 0.7 min | Job: 73.7 min
+Época 88/200 | Loss: 0.030440 | Época: 0.7 min | Job: 74.4 min
+Época 89/200 | Loss: 0.029877 | Época: 0.7 min | Job: 75.2 min
+Época 90/200 | Loss: 0.030220 | Época: 0.7 min | Job: 75.9 min
+Época 91/200 | Loss: 0.030873 | Época: 0.7 min | Job: 76.6 min
+Época 92/200 | Loss: 0.030626 | Época: 0.7 min | Job: 77.4 min
+Época 93/200 | Loss: 0.030633 | Época: 0.7 min | Job: 78.1 min
+Época 94/200 | Loss: 0.030420 | Época: 0.7 min | Job: 78.8 min
+Época 95/200 | Loss: 0.029997 | Época: 0.7 min | Job: 79.5 min
+Época 96/200 | Loss: 0.030510 | Época: 0.7 min | Job: 80.3 min
+Época 97/200 | Loss: 0.030918 | Época: 0.7 min | Job: 81.0 min
+Época 98/200 | Loss: 0.030279 | Época: 0.7 min | Job: 81.7 min
+Época 99/200 | Loss: 0.029941 | Época: 0.7 min | Job: 82.5 min
+Época 100/200 | Loss: 0.030409 | Época: 0.7 min | Job: 83.2 min
+Época 101/200 | Loss: 0.031094 | Época: 0.7 min | Job: 84.0 min
+Época 102/200 | Loss: 0.030527 | Época: 0.7 min | Job: 84.8 min
+Época 103/200 | Loss: 0.030764 | Época: 0.7 min | Job: 85.5 min
+Época 104/200 | Loss: 0.030518 | Época: 0.7 min | Job: 86.2 min
+Época 105/200 | Loss: 0.030385 | Época: 0.7 min | Job: 86.9 min
+Época 106/200 | Loss: 0.030534 | Época: 0.7 min | Job: 87.7 min
+Época 107/200 | Loss: 0.030007 | Época: 0.7 min | Job: 88.4 min
+Época 108/200 | Loss: 0.030910 | Época: 0.7 min | Job: 89.1 min
+Época 109/200 | Loss: 0.030037 | Época: 0.7 min | Job: 89.9 min
+Época 110/200 | Loss: 0.030653 | Época: 0.7 min | Job: 90.6 min
+Época 111/200 | Loss: 0.030371 | Época: 0.7 min | Job: 91.3 min
+Época 112/200 | Loss: 0.030189 | Época: 0.7 min | Job: 92.1 min
+Época 113/200 | Loss: 0.030463 | Época: 0.7 min | Job: 92.8 min
+Época 114/200 | Loss: 0.030495 | Época: 0.7 min | Job: 93.5 min
+Época 115/200 | Loss: 0.030195 | Época: 0.7 min | Job: 94.3 min
+Época 116/200 | Loss: 0.030261 | Época: 0.7 min | Job: 95.0 min
+Época 117/200 | Loss: 0.030163 | Época: 0.7 min | Job: 95.7 min
+Época 118/200 | Loss: 0.030394 | Época: 0.7 min | Job: 96.5 min
+Época 119/200 | Loss: 0.030697 | Época: 0.7 min | Job: 97.2 min
+Época 120/200 | Loss: 0.030698 | Época: 0.7 min | Job: 97.9 min
+Época 121/200 | Loss: 0.030408 | Época: 0.7 min | Job: 98.7 min
+Época 122/200 | Loss: 0.030498 | Época: 0.7 min | Job: 99.4 min
+Época 123/200 | Loss: 0.029826 | Época: 0.7 min | Job: 100.1 min
+Época 124/200 | Loss: 0.030155 | Época: 0.7 min | Job: 100.9 min
+Época 125/200 | Loss: 0.030463 | Época: 0.7 min | Job: 101.6 min
+Época 126/200 | Loss: 0.029942 | Época: 0.7 min | Job: 102.4 min
+Época 127/200 | Loss: 0.030318 | Época: 0.7 min | Job: 103.1 min
+Época 128/200 | Loss: 0.030141 | Época: 0.7 min | Job: 103.9 min
+Época 129/200 | Loss: 0.030133 | Época: 0.7 min | Job: 104.6 min
+Época 130/200 | Loss: 0.030454 | Época: 0.7 min | Job: 105.3 min
+Época 131/200 | Loss: 0.030577 | Época: 0.7 min | Job: 106.1 min
+Época 132/200 | Loss: 0.030329 | Época: 0.7 min | Job: 106.8 min
+Época 133/200 | Loss: 0.030039 | Época: 0.7 min | Job: 107.5 min
+Época 134/200 | Loss: 0.030342 | Época: 0.7 min | Job: 108.3 min
+Época 135/200 | Loss: 0.030556 | Época: 0.7 min | Job: 109.0 min
+Época 136/200 | Loss: 0.030453 | Época: 0.7 min | Job: 109.7 min
+Época 137/200 | Loss: 0.030461 | Época: 0.7 min | Job: 110.4 min
+Época 138/200 | Loss: 0.029901 | Época: 0.7 min | Job: 111.2 min
+Época 139/200 | Loss: 0.030289 | Época: 0.7 min | Job: 111.9 min
+Época 140/200 | Loss: 0.030534 | Época: 0.7 min | Job: 112.6 min
+Época 141/200 | Loss: 0.030617 | Época: 0.7 min | Job: 113.4 min
+Época 142/200 | Loss: 0.030667 | Época: 0.7 min | Job: 114.1 min
+Época 143/200 | Loss: 0.030119 | Época: 0.7 min | Job: 114.8 min
+Época 144/200 | Loss: 0.030226 | Época: 0.7 min | Job: 115.6 min
+Época 145/200 | Loss: 0.030194 | Época: 0.7 min | Job: 116.3 min
+Época 146/200 | Loss: 0.030157 | Época: 0.7 min | Job: 117.0 min
+Época 147/200 | Loss: 0.030309 | Época: 0.7 min | Job: 117.7 min
+Época 148/200 | Loss: 0.029625 | Época: 0.7 min | Job: 118.5 min
+Época 149/200 | Loss: 0.029849 | Época: 0.7 min | Job: 119.2 min
+Época 150/200 | Loss: 0.030160 | Época: 0.7 min | Job: 119.9 min
+Época 151/200 | Loss: 0.029707 | Época: 0.7 min | Job: 120.8 min
+Época 152/200 | Loss: 0.030054 | Época: 0.7 min | Job: 121.5 min
+Época 153/200 | Loss: 0.030278 | Época: 0.7 min | Job: 122.2 min
+Época 154/200 | Loss: 0.030086 | Época: 0.7 min | Job: 122.9 min
+Época 155/200 | Loss: 0.029954 | Época: 0.7 min | Job: 123.7 min
+Época 156/200 | Loss: 0.030204 | Época: 0.7 min | Job: 124.4 min
+Época 157/200 | Loss: 0.030083 | Época: 0.7 min | Job: 125.1 min
+Época 158/200 | Loss: 0.030369 | Época: 0.7 min | Job: 125.9 min
+Época 159/200 | Loss: 0.029626 | Época: 0.7 min | Job: 126.6 min
+Época 160/200 | Loss: 0.030284 | Época: 0.7 min | Job: 127.3 min
+Época 161/200 | Loss: 0.029871 | Época: 0.7 min | Job: 128.1 min
+Época 162/200 | Loss: 0.029799 | Época: 0.7 min | Job: 128.8 min
+Época 163/200 | Loss: 0.030029 | Época: 0.7 min | Job: 129.5 min
+Época 164/200 | Loss: 0.030007 | Época: 0.7 min | Job: 130.3 min
+Época 165/200 | Loss: 0.030119 | Época: 0.7 min | Job: 131.0 min
+Época 166/200 | Loss: 0.029883 | Época: 0.7 min | Job: 131.7 min
+Época 167/200 | Loss: 0.030193 | Época: 0.7 min | Job: 132.5 min
+Época 168/200 | Loss: 0.030004 | Época: 0.7 min | Job: 133.2 min
+Época 169/200 | Loss: 0.029952 | Época: 0.7 min | Job: 133.9 min
+Época 170/200 | Loss: 0.030114 | Época: 0.7 min | Job: 134.7 min
+Época 171/200 | Loss: 0.030009 | Época: 0.7 min | Job: 135.4 min
+Época 172/200 | Loss: 0.030389 | Época: 0.7 min | Job: 136.1 min
+Época 173/200 | Loss: 0.030593 | Época: 0.7 min | Job: 136.9 min
+Época 174/200 | Loss: 0.029739 | Época: 0.7 min | Job: 137.6 min
+Época 175/200 | Loss: 0.029461 | Época: 0.7 min | Job: 138.3 min
+Época 176/200 | Loss: 0.030076 | Época: 0.7 min | Job: 139.1 min
+Época 177/200 | Loss: 0.029411 | Época: 0.7 min | Job: 139.9 min
+Época 178/200 | Loss: 0.030013 | Época: 0.7 min | Job: 140.6 min
+Época 179/200 | Loss: 0.029584 | Época: 0.7 min | Job: 141.3 min
+Época 180/200 | Loss: 0.029502 | Época: 0.7 min | Job: 142.1 min
+Época 181/200 | Loss: 0.029616 | Época: 0.7 min | Job: 142.8 min
+Época 182/200 | Loss: 0.030117 | Época: 0.7 min | Job: 143.5 min
+Época 183/200 | Loss: 0.029715 | Época: 0.7 min | Job: 144.3 min
+Época 184/200 | Loss: 0.030127 | Época: 0.7 min | Job: 145.0 min
+Época 185/200 | Loss: 0.029709 | Época: 0.7 min | Job: 145.7 min
+Época 186/200 | Loss: 0.030235 | Época: 0.7 min | Job: 146.5 min
+Época 187/200 | Loss: 0.030035 | Época: 0.7 min | Job: 147.2 min
+Época 188/200 | Loss: 0.029833 | Época: 0.7 min | Job: 147.9 min
+Época 189/200 | Loss: 0.030018 | Época: 0.7 min | Job: 148.7 min
+Época 190/200 | Loss: 0.029693 | Época: 0.7 min | Job: 149.4 min
+Época 191/200 | Loss: 0.029949 | Época: 0.7 min | Job: 150.1 min
+Época 192/200 | Loss: 0.029508 | Época: 0.7 min | Job: 150.9 min
+Época 193/200 | Loss: 0.030104 | Época: 0.7 min | Job: 151.6 min
+Época 194/200 | Loss: 0.029916 | Época: 0.7 min | Job: 152.3 min
+Época 195/200 | Loss: 0.029728 | Época: 0.7 min | Job: 153.1 min
+Época 196/200 | Loss: 0.029825 | Época: 0.7 min | Job: 153.8 min
+Época 197/200 | Loss: 0.030225 | Época: 0.7 min | Job: 154.5 min
+Época 198/200 | Loss: 0.029554 | Época: 0.7 min | Job: 155.2 min
+Época 199/200 | Loss: 0.030193 | Época: 0.7 min | Job: 156.0 min
+Época 200/200 | Loss: 0.029784 | Época: 0.7 min | Job: 156.7 min
+Entrenamiento COMPLETO.
+Modelo EMA: /hpcfs/home/fisica/v.rincono/tesis/modelos/cifar10_resunet_attention_ema_model.pt
+Checkpoint: /hpcfs/home/fisica/v.rincono/tesis/modelos/checkpoint_cifar10_resunet_attention_ema_latest.pt
+Resultados: /hpcfs/home/fisica/v.rincono/tesis/Img CIFAR10 ResUNet Attention EMA
+
+Python terminó con código: 0
+Hora: Sun Oct 18 19:27:15 -05 2026
+========================================
+Entrenamiento completo.
+No se requiere otro job.
+Fin: Sun Oct 18 19:27:15 -05 2026
+========================================

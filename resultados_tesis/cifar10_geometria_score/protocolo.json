@@ -1,0 +1,30 @@
+{
+  "analysis": "score_jacobian_antisymmetry_mc_vjp_v1",
+  "models": {
+    "attention_ema": "7683efff83596746c3bd0d4046314516300ce00117133aab616f83a837820083",
+    "resunet_ema": "5091561d6f28465689205bcb461444f2aa800ee611b8c0f1e504346b1d65ab1a"
+  },
+  "architecture_script_sha256": "25a4348d08ec75cc4fc10f72a143e99c747884e2d9ca7bce6d4caca3938ecf4a",
+  "n_images": 24,
+  "n_probe_pairs": 6,
+  "times": [
+    0,
+    50,
+    250,
+    500,
+    750,
+    999
+  ],
+  "bootstrap": 1200,
+  "seed": 20261025,
+  "cifar10_selection_seed": 20261024,
+  "cifar10_source": "test; Normalize([.5]*3,[.5]*3)",
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "T": 1000,
+  "jacobian_wrt": "all_3072_normalized_image_components",
+  "data_sampling": "same_clean_images_noises_and_rademacher_probes_for_both_models",
+  "definition_rho": "sqrt(0.25*mean(delta^2)/mean(0.5*(norm(JT_v)^2+norm(JT_w)^2)))",
+  "interpretation": "stochastic estimate; finite probes/images; local symmetry necessary, not sufficient, for true score",
+  "torch_version": "2.7.1+cu118"
+}

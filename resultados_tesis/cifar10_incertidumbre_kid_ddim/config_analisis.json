@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-10-26",
+  "analisis": "DDIM eta=0 bootstrap pareado",
+  "semilla": 20261026,
+  "bootstrap_replicas": 400,
+  "n_reales": 10000,
+  "n_generadas_por_condicion": 5000,
+  "sampler": "DDIM eta=0; timesteps compartidos por modelo en indice de muestra",
+  "extractor": "TorchMetrics/TorchFidelity Inception-v3 feature=2048 normalize=False",
+  "kernel": "((x dot y)/2048 + 1)^3",
+  "estimador": "KID MMD^2 estimador U usando TODAS las imagenes",
+  "bootstrap": "multinomial pareado: mismos indices de muestras generadas para las 10 condiciones; mismos indices reales en cada replica",
+  "intervalo": "IC bootstrap basico nominal 95%, 2*estimacion - quantiles 97.5% y 2.5%",
+  "disclaimer": "exploratorio; sin correccion de comparaciones multiples; condicionado a pesos entrenados y conjuntos muestrales; no inferir equivalencia",
+  "torch": "2.7.1+cu118",
+  "torchmetrics": "1.9.0",
+  "torch_fidelity": "0.4.0",
+  "python": "3.11.10",
+  "gpu": "Quadro RTX 6000",
+  "ddim_protocol_sha256": "c1a17f5b119743a2ae4bee5283e4fc22dc29f48dd1524e54a60ee13b6cfff0b5"
+}

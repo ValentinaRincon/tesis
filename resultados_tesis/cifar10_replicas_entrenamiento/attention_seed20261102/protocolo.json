@@ -1,0 +1,18 @@
+{
+  "epochs": 200,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "ema_decay": 0.999,
+  "optimizer": "Adam",
+  "weight_decay": 0.0,
+  "t_steps": 1000,
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "data": "CIFAR10 train [-1,1]",
+  "ema_initialization": "copy_initial_weights",
+  "ema_update": "every_optimizer_step",
+  "shuffle": "independent DataLoader generator; workers=0",
+  "architecture": "attention",
+  "seed": 20261102,
+  "reference_sha256": "a8361c4843694da68f26fb46b36d11c25f00aabac0b66feb70044315e752ee10"
+}

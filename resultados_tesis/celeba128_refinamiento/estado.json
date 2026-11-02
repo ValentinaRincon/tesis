@@ -1,0 +1,7 @@
+{
+  "epoch": 60,
+  "target": 60,
+  "train_mse": 0.01146507,
+  "elapsed_seconds": 9252.3,
+  "complete": true
+}

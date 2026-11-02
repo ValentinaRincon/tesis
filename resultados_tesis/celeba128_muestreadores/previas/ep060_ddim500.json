@@ -1,0 +1,18 @@
+{
+  "experiment": "sampler_celeba128_ema_quality_v1",
+  "epoch": 60,
+  "sampler": "ddim500",
+  "kind": "preview",
+  "source_sha256": "d436bb36e9d723bb9b2816c8ef2a549d0b87181e04ab17d119a09dcb9371f79f",
+  "checkpoint_sha256": "26722377ed65872d3efad817128c2c8375d18ae15492fcddfadc85adfc057723",
+  "crop": "CenterCrop160_Resize128_RGB_Normalize(-1,1)",
+  "initial_noise": "torch.randn CPU generator, seed=SEED+chunk; same initial xT across samplers",
+  "ddpm_noise": "independent CUDA generator, seed=SEED+chunk+900000",
+  "seed": 20261120,
+  "n": 16,
+  "batch": 16,
+  "microbatch": 2,
+  "betas": "linear 1e-4 -> 0.02, T=1000",
+  "deterministic_ddim_eta": 0,
+  "ddpm_variance": "posterior beta_tilde, no x0 clipping"
+}

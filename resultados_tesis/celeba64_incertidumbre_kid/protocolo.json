@@ -1,0 +1,17 @@
+{
+  "experiment": "celeba64_cpu_kid_bootstrap_and_real_baseline_v1",
+  "model_checkpoint_sha256": "77cc4513e3b751c5221f84e3cd269a8860145e28131db0d8823cf0a17fa032c1",
+  "split_sha256": "fc955bcb3ef8fbdf7d5640d9a8693a8431b5f2ee291a5c1449a1549e7e073fe7",
+  "source_experiment": "celeba64_ema_ddim250_kid_test_nearest_train_v1",
+  "source_fake_count": 5000,
+  "reference_test_count": 10000,
+  "train_control_count": 5000,
+  "train_subset_seed": 20261031,
+  "n_bootstrap": 400,
+  "confidence_level": 0.95,
+  "inception_dim": 2048,
+  "kernel": "(1 + x dot y / 2048)**3, estimador U sin sesgo",
+  "bootstrap": "remuestreo independiente por conjunto, misma muestra test en dos comparaciones",
+  "scope": "incertidumbre de muestreo condicional a checkpoint, Inception y features guardadas",
+  "real_baseline": "5000 train aleatorias versus las mismas 10000 test (no mide ausencia de memorización)"
+}

@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "steps": 250,
+      "rms_normalized_0_1": 0.039938006550073624
+    },
+    {
+      "steps": 500,
+      "rms_normalized_0_1": 0.03999947011470795
+    }
+  ],
+  "n": 16,
+  "seed": 20261106,
+  "note": "RMS no es indicador de mejora de calidad: comparar visualmente y cuantificar si hace falta."
+}

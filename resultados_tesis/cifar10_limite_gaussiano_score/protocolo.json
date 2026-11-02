@@ -1,0 +1,34 @@
+{
+  "analysis": "direct_gaussian_limit_score_jacobian_vjp_v1",
+  "architecture_file_sha256": "25a4348d08ec75cc4fc10f72a143e99c747884e2d9ca7bce6d4caca3938ecf4a",
+  "checkpoints_sha256": {
+    "attention_ema": "7683efff83596746c3bd0d4046314516300ce00117133aab616f83a837820083",
+    "resunet_ema": "5091561d6f28465689205bcb461444f2aa800ee611b8c0f1e504346b1d65ab1a"
+  },
+  "images": 24,
+  "probes_per_image": 16,
+  "bootstrap_reps": 1500,
+  "times": [
+    500,
+    750,
+    900,
+    950,
+    975,
+    999
+  ],
+  "seed": 20261026,
+  "dataset_selection_seed": 20261024,
+  "data": "CIFAR10 test, Normalize(0.5,0.5) transform to [-1,1]",
+  "schedule": {
+    "T": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02
+  },
+  "jacobian_coordinates": "all 3072 normalized RGB components",
+  "same_images_noise_probes_for_both_models": true,
+  "gaussian_prediction": "for p_t=N(0,I), s_t=-x, J_s=-I",
+  "E_J": "sqrt(mean_v ||J_s^T v+v||^2 / 3072)",
+  "E_score": "sqrt(sum ||s_theta+x_t||^2 / sum ||x_t||^2)",
+  "uncertainty": "paired image bootstrap conditional on trained checkpoints and fixed probes",
+  "torch": "2.7.1+cu118"
+}

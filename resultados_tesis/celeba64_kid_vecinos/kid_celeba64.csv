@@ -1,0 +1,2 @@
+dataset,generator,n_real,n_generated,kid_u_complete,kid_u_complete_x1000,subset_kid_mean_x1000,subset_kid_std_x1000_descriptive,subsets,subset_size,uncertainty_note
+CelebA test oficial (10k seleccionadas),ResUNet64 Attention EMA DDIM250,10000,5000,0.013646125793457031,13.646125793457031,13.835406303405762,1.1120098180270275,100,500,STD entre subconjuntos NO es IC95

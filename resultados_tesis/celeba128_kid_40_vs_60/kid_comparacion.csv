@@ -1,0 +1,5 @@
+comparacion,kid_u_x1000,ic95_basico_inf_x1000,ic95_basico_sup_x1000,bootstrap_replicas,n_test,n_modelo,note
+ep40 vs test,26.932372214159006,25.861737044806677,27.678003924280926,400,10000,5000,IC exploratorio condicional a checkpoints/semillas; bootstrap básico pareado; KID menor = mejor
+ep60 vs test,21.82058571292167,20.954285861507216,22.492318836092394,400,10000,5000,IC exploratorio condicional a checkpoints/semillas; bootstrap básico pareado; KID menor = mejor
+ep60 − ep40,-5.1117865012373365,-5.621807488661634,-4.601535148475633,400,10000,5000,IC exploratorio condicional a checkpoints/semillas; bootstrap básico pareado; KID menor = mejor
+train real vs test,0.0733208351850756,-0.08606233868111432,0.05680665529133044,400,10000,5000,IC exploratorio condicional a checkpoints/semillas; bootstrap básico pareado; KID menor = mejor

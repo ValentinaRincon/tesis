@@ -1,0 +1,6 @@
+{
+  "variant": "ddim_resunet_ema_0100",
+  "model": "resunet_ema",
+  "steps": 100,
+  "protocol_sha256": "c1a17f5b119743a2ae4bee5283e4fc22dc29f48dd1524e54a60ee13b6cfff0b5"
+}

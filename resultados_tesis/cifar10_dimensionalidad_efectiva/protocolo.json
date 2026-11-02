@@ -1,0 +1,29 @@
+{
+  "analysis": "pca_cifar10_forward_ddpm_expected_covariance_v1",
+  "created_utc": "2026-10-27T22:50:21.531140+00:00",
+  "dataset_file": "/hpcfs/home/fisica/v.rincono/tesis/data/cifar-10-batches-py/test_batch",
+  "dataset_sha256": "f53d8d457504f7cff4ea9e021afcf0e0ad8e24a91f3fc42091b8adef61157831",
+  "n_images": 10000,
+  "features": 3072,
+  "dataset_normalization": "float64(raw_uint8/127.5-1), no data augmentation",
+  "sample_covariance": "centered X.T @ X/(n-1)",
+  "times": [
+    0,
+    50,
+    250,
+    500,
+    750,
+    900,
+    950,
+    975,
+    999
+  ],
+  "T": 1000,
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "expected_forward_cov": "alpha_bar_t*C0 + (1-alpha_bar_t)*I",
+  "participation_dimension": "(trace(C))**2/trace(C@C)",
+  "entropy_rank": "exp(-sum_k p_k log(p_k)); p_k = lambda_k/trace(C)",
+  "important": "Curves are analytic for the expected forward covariance from the empirical CIFAR10 test distribution, not covariance estimates of a newly sampled finite dataset at each t. No bootstrap here.",
+  "numpy": "2.4.6"
+}

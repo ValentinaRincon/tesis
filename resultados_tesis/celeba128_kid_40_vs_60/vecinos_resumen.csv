@@ -1,0 +1,3 @@
+epoca,n_generated,n_train,mean_cosine,median_cosine,p95_cosine,max_cosine,cosine_ge_095,test_to_train_mean_control,note
+40,5000,50000,0.846881628036499,0.8535336852073669,0.9139125943183899,0.9591395258903503,2,0.8869711756706238,Similitud de Inception no demuestra ni descarta memorización
+60,5000,50000,0.8564238548278809,0.8603223562240601,0.9184558391571045,0.9587675333023071,4,0.8869711756706238,Similitud de Inception no demuestra ni descarta memorización

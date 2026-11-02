@@ -1,0 +1,15 @@
+{
+  "seed": 20261025,
+  "bootstrap_replicates": 400,
+  "n_generated_each": 5000,
+  "n_real": 10000,
+  "kernel": "((u·v)/2048 + 1)^3",
+  "estimator": "unbiased full-sample U-statistic MMD2, not subset KID mean",
+  "bootstrap": "paired multinomial resampling of 5000 generator indices across all 8 models; independent but shared real resampling",
+  "ci": "basic centered 2*point-[q975,q025], approximate, conditional on fitted checkpoints",
+  "torch": "2.7.1+cu118",
+  "torchmetrics": "1.9.0",
+  "torch_fidelity": "0.4.0",
+  "python": "3.11.10",
+  "gpu": "Quadro RTX 6000"
+}

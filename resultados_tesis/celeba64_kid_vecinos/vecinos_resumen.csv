@@ -1,0 +1,2 @@
+feature_space,n_fake,train_reference,fake_to_train_mean,fake_to_train_median,fake_to_train_p95,fake_to_train_max,pixel_mse_median_to_inception_neighbor,pixel_mse_min_to_inception_neighbor,test_to_train_mean_control,test_to_train_median_control,test_to_train_p95_control,note
+"TorchMetrics/Inception 2048, cosine",5000,50000,0.8712761998176575,0.8778649568557739,0.928824782371521,0.9584750533103943,0.0882144644856453,0.01034455094486475,0.8957177996635437,0.9004550576210022,0.9406921863555908,Similitud coseno alta NO demuestra memorizacion ni identidad pixel a pixel

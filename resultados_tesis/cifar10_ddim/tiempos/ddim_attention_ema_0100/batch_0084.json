@@ -1,0 +1,9 @@
+{
+  "key": "ddim_attention_ema_0100",
+  "batch": 84,
+  "images": 32,
+  "seconds": 0.46231260895729065,
+  "seconds_per_image": 0.014447269029915333,
+  "steps": 100,
+  "device": "Quadro RTX 6000"
+}

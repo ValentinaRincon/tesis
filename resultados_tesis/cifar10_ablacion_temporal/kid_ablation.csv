@@ -1,0 +1,9 @@
+variant,key,low_noise_model,high_noise_model,cutoff_t,KID_mean,KID_std_subsets,KID_x1000,generated_count,real_count,subset_size,subsets,feature_dim,kid_seed,reference_reused
+"Attention + EMA, todo t",A_all,A,A,,0.02724783681333065,0.0023565290030092,27.24783681333065,5000,10000,500,100,2048,42,True
+"ResUNet + Attention + EMA, todo t",B_all,B,B,,0.01764051429927349,0.0017988206818699837,17.64051429927349,5000,10000,500,100,2048,42,True
+"ResUNet bajo ruido, Attention alto ruido (t≤50)",B_low_A_high_t050,B,A,50,0.02564335986971855,0.0021329927258193493,25.64335986971855,5000,10000,500,100,2048,42,False
+"Attention bajo ruido, ResUNet alto ruido (t≤50)",A_low_B_high_t050,A,B,50,0.019808229058980942,0.0018646883545443416,19.80822905898094,5000,10000,500,100,2048,42,False
+"ResUNet bajo ruido, Attention alto ruido (t≤250)",B_low_A_high_t250,B,A,250,0.021626804023981094,0.0021139553282409906,21.626804023981094,5000,10000,500,100,2048,42,False
+"Attention bajo ruido, ResUNet alto ruido (t≤250)",A_low_B_high_t250,A,B,250,0.02387269400060177,0.0020289430394768715,23.87269400060177,5000,10000,500,100,2048,42,False
+"ResUNet bajo ruido, Attention alto ruido (t≤500)",B_low_A_high_t500,B,A,500,0.01820625178515911,0.0018275289330631495,18.20625178515911,5000,10000,500,100,2048,42,False
+"Attention bajo ruido, ResUNet alto ruido (t≤500)",A_low_B_high_t500,A,B,500,0.026291662827134132,0.002270952332764864,26.291662827134132,5000,10000,500,100,2048,42,False

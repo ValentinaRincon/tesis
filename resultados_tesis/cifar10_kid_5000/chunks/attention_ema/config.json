@@ -1,0 +1,13 @@
+{
+  "model": "attention_ema",
+  "weights_file": "cifar10_attention_ema_model.pt",
+  "weights_sha256": "7683efff83596746c3bd0d4046314516300ce00117133aab616f83a837820083",
+  "T": 1000,
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "n_samples": 5000,
+  "batch_size": 32,
+  "seed": 20261020,
+  "sampler": "DDPM ancestral posterior variance",
+  "output_dtype": "uint8"
+}

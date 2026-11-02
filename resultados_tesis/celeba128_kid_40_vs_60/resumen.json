@@ -1,0 +1,11 @@
+{
+  "KID_x1000": {
+    "ep40 vs test": 26.932372214159006,
+    "ep60 vs test": 21.82058571292167,
+    "ep60 − ep40": -5.1117865012373365,
+    "train real vs test": 0.0733208351850756
+  },
+  "delta_60_menos_40_x1000": -5.1117865012373365,
+  "bootstrap": 400,
+  "interpretacion": "Delta negativo favorece epoca 60, pero la importancia depende del IC. IC condicional a checkpoint y semillas."
+}

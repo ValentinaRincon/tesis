@@ -1,0 +1,7 @@
+{
+  "key": "attention_seed20261102",
+  "epochs_done": 200,
+  "total_epochs": 200,
+  "complete": true,
+  "last_train_mse": 0.03035379838824272
+}

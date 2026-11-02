@@ -1,0 +1,28 @@
+{
+  "key": "A_low_B_high_t050",
+  "low": "A",
+  "high": "B",
+  "cutoff": 50,
+  "protocol": {
+    "experiment": "time-window expert ablation",
+    "n_samples": 5000,
+    "batch_size": 32,
+    "timesteps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "sampling_seed": 20261020,
+    "sampler": "DDPM ancestral posterior variance",
+    "dtype": "uint8 RGB",
+    "cutoffs": [
+      50,
+      250,
+      500
+    ],
+    "rule": "low model for t<=cutoff; high model for t>cutoff",
+    "checkpoint_sha256": {
+      "A": "7683efff83596746c3bd0d4046314516300ce00117133aab616f83a837820083",
+      "B": "5091561d6f28465689205bcb461444f2aa800ee611b8c0f1e504346b1d65ab1a"
+    },
+    "reference_script": "evaluar_kid_cifar10_5000.py"
+  }
+}

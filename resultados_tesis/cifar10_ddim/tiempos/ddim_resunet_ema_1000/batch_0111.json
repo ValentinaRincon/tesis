@@ -1,0 +1,9 @@
+{
+  "key": "ddim_resunet_ema_1000",
+  "batch": 111,
+  "images": 32,
+  "seconds": 8.68388356640935,
+  "seconds_per_image": 0.27137136145029217,
+  "steps": 1000,
+  "device": "Quadro RTX 6000"
+}

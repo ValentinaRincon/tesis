@@ -1,0 +1,4 @@
+comparacion,kid_u_x1000,ic95_inf_x1000,ic95_sup_x1000,replicas_bootstrap,n_test,n_otro,nota
+Generadas vs test,13.646489655700478,13.027448202534774,14.41535760243272,400,10000,5000,IC percentil condicional al checkpoint; baseline cerca de 0 requiere cautela bajo hipotesis nula
+Train real vs test real,0.0893131305992334,0.08764747255285421,0.26128229992326,400,10000,5000,IC percentil condicional al checkpoint; baseline cerca de 0 requiere cautela bajo hipotesis nula
+Generadas menos real-versus-real,13.557176525101244,12.83405740142699,14.258462830307705,400,10000,5000,IC percentil condicional al checkpoint; baseline cerca de 0 requiere cautela bajo hipotesis nula

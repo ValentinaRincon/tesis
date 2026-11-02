@@ -1,0 +1,56 @@
+{
+  "models": [
+    {
+      "label": "Attention + EMA",
+      "file": "cifar10_attention_ema_model.pt",
+      "sha256": "7683efff83596746c3bd0d4046314516300ce00117133aab616f83a837820083"
+    },
+    {
+      "label": "ResUNet + Attention + EMA",
+      "file": "cifar10_resunet_attention_ema_model.pt",
+      "sha256": "5091561d6f28465689205bcb461444f2aa800ee611b8c0f1e504346b1d65ab1a"
+    }
+  ],
+  "dataset": "CIFAR10 test",
+  "n_test": 512,
+  "t_values": [
+    0,
+    1,
+    5,
+    10,
+    25,
+    50,
+    100,
+    150,
+    200,
+    250,
+    350,
+    500,
+    650,
+    750,
+    900,
+    999
+  ],
+  "fig_t": [
+    50,
+    250,
+    750
+  ],
+  "trajectory_snapshots": [
+    999,
+    750,
+    500,
+    250,
+    50,
+    0
+  ],
+  "n_trajectories": 4,
+  "sampling_seed": 260124,
+  "data_seed": 20261024,
+  "noise_seed": 314159,
+  "T": 1000,
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "note": "epsilon target per realization is conditional denoising target, not marginal score truth. Bootstrap across fixed held-out examples, not retraining replicates.",
+  "note_trajectories": "DDPM ancestral sampling with paired noises; images on different paths are not an apples-to-apples score field comparison."
+}

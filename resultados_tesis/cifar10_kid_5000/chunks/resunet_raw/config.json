@@ -1,0 +1,13 @@
+{
+  "model": "resunet_raw",
+  "weights_file": "cifar10_resunet_attention_ema_raw_model.pt",
+  "weights_sha256": "5472c462e229bcc0c93defee0cc9ee10384888f5f7c698843a18d84f8eb64ecc",
+  "T": 1000,
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "n_samples": 5000,
+  "batch_size": 32,
+  "seed": 20261020,
+  "sampler": "DDPM ancestral posterior variance",
+  "output_dtype": "uint8"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "DDIM deterministic paired trajectories",
+  "weights": {
+    "attention": "7683efff83596746c3bd0d4046314516300ce00117133aab616f83a837820083",
+    "resunet": "5091561d6f28465689205bcb461444f2aa800ee611b8c0f1e504346b1d65ab1a"
+  },
+  "architecture_source_sha256": "a8361c4843694da68f26fb46b36d11c25f00aabac0b66feb70044315e752ee10",
+  "ddim_source_sha256": "d2b713024fe700ee6300fc45df03b612543842975d42698f343d7c5f21527367",
+  "steps": [
+    1000,
+    250,
+    50
+  ],
+  "n_images": 16,
+  "seed": 20261103,
+  "T": 1000,
+  "same_x_T_all_architectures_and_step_counts": true,
+  "eta": 0,
+  "trajectory_metric": "RMS pixel difference, averaged across images",
+  "note": "for different step counts, snapshots may be at different physical t; compare terminal x0 directly"
+}

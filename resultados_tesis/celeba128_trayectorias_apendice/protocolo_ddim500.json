@@ -1,0 +1,33 @@
+{
+  "experiment": "celeba128_appendix_trajectories_ema60_v1",
+  "checkpoint": "CelebA 128x128 Refinamiento/checkpoint.pt",
+  "checkpoint_sha256": "26722377ed65872d3efad817128c2c8375d18ae15492fcddfadc85adfc057723",
+  "base_model_sha256": "d436bb36e9d723bb9b2816c8ef2a549d0b87181e04ab17d119a09dcb9371f79f",
+  "sampler_model_sha256": "f0239832815a7f2340f6e304fca558fca67e98d495d26c29e979bbcf284b30b6",
+  "sampler": "ddim500",
+  "n_reverse_steps": 500,
+  "n_images": 4,
+  "initial_noise_seed": 20261120,
+  "noise_sampling": "CPU torch.randn, same initial xT for all samplers",
+  "ddpm_random_seed": 21161120,
+  "ddim_eta": 0,
+  "states_t_actual": [
+    999,
+    901,
+    801,
+    701,
+    601,
+    501,
+    400,
+    300,
+    200,
+    150,
+    100,
+    50,
+    10
+  ],
+  "terminal_state": "after t=0 reverse step",
+  "normalization": "model uses [-1,1]; display-only clamp [-1,1] -> 0..255",
+  "interpretation": "x_t noisy state vs x0 estimate; x0 estimate is not a physical path state",
+  "torch_version": "2.7.1+cu118"
+}

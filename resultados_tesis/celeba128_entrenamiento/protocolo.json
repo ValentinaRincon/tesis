@@ -1,0 +1,27 @@
+{
+  "config": {
+    "experiment": "celeba128_resunet_warmstart64ema_v1",
+    "size": 128,
+    "seed": 20261030,
+    "data_seed": 20261029,
+    "max_train_images": 50000,
+    "epochs": 40,
+    "batch_size": 4,
+    "workers": 2,
+    "learning_rate_shared": 5e-05,
+    "learning_rate_new": 0.0001,
+    "ema_decay": 0.999,
+    "t_steps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "amp": "fp16",
+    "max_grad_norm": 1.0,
+    "preview_every": 5,
+    "preview_n": 8,
+    "preview_steps": 50,
+    "initialization": "weights_from_original_64_ema_for_matching_layers"
+  },
+  "source128_sha256": "d436bb36e9d723bb9b2816c8ef2a549d0b87181e04ab17d119a09dcb9371f79f",
+  "source64_sha256": "0e96eee4b1e654a43ce7046e5d78f2ccefd899a2c3dce63b7abf1dc882697054",
+  "split_sha256": "fc955bcb3ef8fbdf7d5640d9a8693a8431b5f2ee291a5c1449a1549e7e073fe7"
+}

@@ -1,0 +1,7 @@
+{
+  "epoch": 40,
+  "epochs": 40,
+  "train_mse": 0.01155891,
+  "elapsed_seconds": 19527.1,
+  "complete": true
+}

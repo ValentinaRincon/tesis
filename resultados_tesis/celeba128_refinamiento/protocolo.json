@@ -1,0 +1,40 @@
+{
+  "experiment": "celeba128_finetune_epoch40_to60_v1",
+  "original_checkpoint_sha256": "b84e37fb1ca90ea8ee829893e966de0dbcd6a44f7edc72cf298947728a07a0f2",
+  "source_128_script_sha256": "d436bb36e9d723bb9b2816c8ef2a549d0b87181e04ab17d119a09dcb9371f79f",
+  "initial_epoch": 40,
+  "target_epoch": 60,
+  "lr_shared": 2.5e-05,
+  "lr_new": 5e-05,
+  "preserve_optimizer_and_scaler": true,
+  "preserve_ema": true,
+  "previews_every_epochs": 5,
+  "preview_ddim_steps": 50,
+  "comparison_ddim_steps": [
+    250,
+    500
+  ],
+  "comparison_seed": 20261106,
+  "source_training_config": {
+    "experiment": "celeba128_resunet_warmstart64ema_v1",
+    "size": 128,
+    "seed": 20261030,
+    "data_seed": 20261029,
+    "max_train_images": 50000,
+    "epochs": 40,
+    "batch_size": 4,
+    "workers": 2,
+    "learning_rate_shared": 5e-05,
+    "learning_rate_new": 0.0001,
+    "ema_decay": 0.999,
+    "t_steps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "amp": "fp16",
+    "max_grad_norm": 1.0,
+    "preview_every": 5,
+    "preview_n": 8,
+    "preview_steps": 50,
+    "initialization": "weights_from_original_64_ema_for_matching_layers"
+  }
+}

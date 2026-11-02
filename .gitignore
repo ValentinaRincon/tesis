@@ -1,1 +1,27 @@
 data/cifar-10-python.tar.gz
+
+# Modelos y checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Datos y resultados pesados
+data/
+features/
+*.npy
+*.npz
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Registros de SLURM
+*.log
+*.err
+
+# Python y archivos temporales
+__pycache__/
+*.pyc
+*.bak
+.venv/
